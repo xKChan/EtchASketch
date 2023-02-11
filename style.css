@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
 }
-#column {
+.column {
   border: solid 1px black;
   height: 50px;
   width: 50px;
@@ -13,4 +13,15 @@ html, body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border: solid 1px black;
+
 }
+
+.row:hover {
+  color: white;
+}
+
+/* .column:hover {
+  background-color: yellow;
+  color: white;
+} */
